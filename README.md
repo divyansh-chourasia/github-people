@@ -1,4 +1,4 @@
-# live linke https://github-people.netlify.app/
+# live link  : https://github-people.netlify.app/
 
 
 # Getting Started with Create React App

@@ -49,14 +49,20 @@ const Repos = () => {
   forks = Object.values(forks).slice(-10).reverse();
 
   return (
-    <section className="section ">
+      <section className="section ">
       <div className="section-center">
+        <div className="chart-border">
         <Column data={stars} />
+        </div>
       </div>
 
       <Wrapper className="section-center">
-        <Doughnut data={mostPopular} />
-        <Bar data={forks} />
+        <div className="chart-border">
+          <Doughnut data={mostPopular} />
+        </div>
+        <div className="chart-border">
+          <Bar data={forks} />
+        </div>
       </Wrapper>
     </section>
   );

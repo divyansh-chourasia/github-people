@@ -139,7 +139,7 @@
   padding: 2rem;
   display: flex;
   justify-content: space-between;
-  /* background-color: #f8faff; */
+  background-color: #f8faff;
 }
 .nav-bar {
   background-color: rgb(58, 126, 238);
@@ -164,7 +164,7 @@
 }
 
 .dashboard {
-  /* background-color: #f8faff; */
+  background-color: #f8faff;
   width: 80%;
   padding: 1rem;
 }
@@ -241,4 +241,9 @@
 .user-name {
   font-size: 1.5rem;
   margin: 1rem;
+}
+
+.chart-border{
+  border: 1px solid grey;
+  margin: 0.5rem;
 }

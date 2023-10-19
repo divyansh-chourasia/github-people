@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&family=Roboto:ital,wght@0,500;0,700;1,400&family=Ubuntu:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bigelow Rules", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+
+  background: linear-gradient(102deg, #3b88f3 45%, #f8faff 20%);
+  background: -moz-linear-gradient(102deg, #2400ff 0%, #f8faff 20%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+}
+.board {
+  color: white;
+  font-weight: 1000;
+  padding: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.error-msg {
+  background-color: rgb(255, 207, 207);
+  color: red;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+}
+
+.auth-container {
+  padding: 2rem;
+}
+
+.auth-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.auth-social .google {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  gap: 10px;
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+.form-contaier {
+  background-color: white;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-input {
+  border-style: none;
+  background-color: rgb(222, 222, 222);
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+
+.forgot-password {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* color: blue; */
+}
+
+.button {
+  width: 100%;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(58, 126, 238);
+  color: white;
+  padding: 0.5rem;
+}
+
+.dont-account {
+  padding: 2rem;
+}
+
+.social-links {
+  color: white;
+  display: flex;
+  font-size: 2rem;
+  gap: 50px;
+  margin-left: 10rem;
+}
+
+.section {
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+.section-center {
+  /* width: 80vw; */
+  margin: 20px auto;
+  max-width: 1000px;
+  /* background-color: white; */
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+
+/* home page */
+.hero {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #f8faff; */
+}
+.nav-bar {
+  background-color: rgb(58, 126, 238);
+  border-radius: 10px;
+  color: white;
+  width: 300px;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-links {
+  padding: 2rem;
+  list-style-type: none;
+}
+
+.nav-link-item {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.dashboard {
+  /* background-color: #f8faff; */
+  width: 80%;
+  padding: 1rem;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+.search-input {
+  border-style: none;
+}
+.search-input:focus {
+  outline: none;
+}
+.search-input-btn {
+  border-style: none;
+  background: none;
+}
+.search-input-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header-p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.log-out {
+  background-color: blue;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.log-out-btn {
+  border-style: none;
+  background: none;
+  color: white;
+}
+
+.column-chart {
+  padding: 1rem;
+}
+
+.add-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
